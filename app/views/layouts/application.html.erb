@@ -14,9 +14,16 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="navbar-header brand">
-          <a class="navbar-brand" href="/">brand</a>
+          <a class="navbar-brand" href="/">logo_here</a>
         </div>
         <ul class="nav navbar-nav navbar-right">
+          <li>
+            <%= link_to "#" do %>
+              <i class="icon-chevron-left"></i>
+              <i class="icon-home"></i>
+              Home
+            <% end %>
+          </li>
           <li><%= link_to "Admin", 'www.google.com' %>
           </li>
           <li><%= link_to "POS", 'www.google.com' %></li>
@@ -38,7 +45,7 @@
             <a href="#"
                   class="dropdown-toggle"
                   data-toggle="dropdown">
-                  Admin
+                  Other
                   <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
@@ -57,7 +64,8 @@
                     <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
-                <li><%= link_to "Background Jobs", "/sidekiq" %></li>
+                <li><%= link_to "Profile", "#" %></li>
+                <li><%= link_to "Logout", "#" %></li>
               </ul>
             </li>
           </ul>
