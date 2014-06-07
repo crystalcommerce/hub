@@ -22,6 +22,11 @@ body {
   float: left;
 }
 
-.icon-home {
+.icon-home, .icon-chevron-left {
   font-size: 20px;
+}
+
+.home {
+  border-right: 2px solid;
+  border-color: grey;
 }
