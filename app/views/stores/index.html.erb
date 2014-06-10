@@ -1,0 +1,60 @@
+<div class="content">
+  <p>
+    <span><b>List of Stores</b> - across Crystal Commerce Intranetwork</span>
+  </p>
+  <p>
+    <span>
+      Search Store
+      <%= text_field_tag 'Store name', '', placeholder: "Enter Store Name", class: "search-store" %>
+      <%= button_tag "Search", class: "btn btn-success" %>
+    </span>
+  </p>
+
+  <div>
+  <table class="table table-bordered table-hover table-striped">
+    <thead>
+      <tr class="active" style="background-color: grey">
+        <th>
+          Store
+        </th>
+        <th>
+          Full Store name
+        </th>
+        <th>
+          POS
+        </th>
+        <th>
+          Admin
+        </th>
+        <th>
+          Sync
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <% 20.times.each do %>
+      <tr>
+        <th>
+          3hdgames
+        </th>
+        <th>
+          3hdgames
+        </th>
+        <th>
+          GO
+        </th>
+        <th>
+          GO
+        </th>
+        <th>
+          GO
+        </th>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+  </div>
+
+</div>
+
+
