@@ -1,0 +1,52 @@
+<div class="content">
+  <p>
+    <span><b>List of People</b> - across Crystal Commerce Intranetwork</span>
+  </p>
+  <p>
+    <span>
+      Search Person
+      <%= text_field_tag 'Store name', '', placeholder: "Enter Person's Name or Email", class: "search-store" %>
+      <%= button_tag "Search", class: "btn btn-success" %>
+    </span>
+  </p>
+
+  <div>
+  <table class="table table-bordered table-hover table-striped">
+    <thead>
+      <tr class="active" style="background-color: grey">
+        <th>
+          Store
+        </th>
+        <th>
+          Full Store name
+        </th>
+        <th>
+          Roles (Personas)
+        </th>
+        <th>
+          Account
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <% 20.times.each do %>
+      <tr>
+        <th>
+          Bryan Starbuck
+        </th>
+        <th>
+          bryan@crystalcommerce.com
+        </th>
+        <th>
+          CC Employee, APIs
+        </th>
+        <th>
+          Open
+        </th>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+  </div>
+
+</div>
