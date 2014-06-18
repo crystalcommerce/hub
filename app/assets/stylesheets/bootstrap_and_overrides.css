@@ -7,7 +7,9 @@
   */
 
 body {
-  padding: 30px 20px 20px 20px;
+  padding: 0px 20px 20px 20px;
+  margin-top: 50px;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .content {
@@ -16,4 +18,97 @@ body {
 
 .search-store {
   margin-bottom: 0px!important;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcome-text {
+  color: #7f8c8d;
+}
+
+.physical-store {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+.online-store {
+  background-color: #8e44ad;
+  color: #fff;
+}
+
+.product-lists {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.strategic-insights {
+  background-color: #c0392b;
+  color: #fff;
+}
+
+.notif-count {
+  background-color: #c0392b;
+  height:22px;
+  width:22px;
+  -moz-border-radius:100px;
+  -webkit-border-radius:100px;
+
+  text-align:center;
+  color:white;
+  line-height: 22px;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: sans-serif;
+
+  float: right;
+}
+
+.notif-name, .notif-title {
+  float: left;
+}
+
+.notif-link {
+  float: right;
+}
+
+.blue {
+  background-color: #2980b9;
+  color:white;
+}
+
+.green {
+  background-color: #27ae60;
+  color:white;
+}
+
+.yellow {
+  background-color: #f1c40f;
+  color:white;
+}
+
+.red {
+  background-color: #c0392b;
+  color:white;
+}
+
+.blue-green {
+  background-color: #16a085;
+  color:white;
+}
+
+.violet {
+  background-color: #8e44ad;
+  color:white;
+}
+
+.dark-blue {
+  background-color: #34495e;
+  color:white;
+}
+
+.orange {
+  background-color: #d35400;
+  color:white;
 }
