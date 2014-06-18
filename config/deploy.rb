@@ -27,11 +27,6 @@ set :shared_paths, {
 
 desc "Symlinks the configuration files"
 namespace :vlad do
-  task :notify do
-    ENV["TO"] ||= "production"
-    Rake::Task["honeybadger:deploy"].invoke
-  end
-
   remote_task :deploy => [
     'vlad:maintenance:on',
     :update,
@@ -40,7 +35,6 @@ namespace :vlad do
     :migrate,
     :start_app,
     'vlad:maintenance:off',
-    :cleanup,
-    :notify,
+    :cleanup
   ]
 end
