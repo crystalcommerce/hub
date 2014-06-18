@@ -43,3 +43,9 @@ gem 'pg'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :development do
+  # Deployment
+  gem 'vlad', :require => false
+  gem 'vlad-assets', :require => false
+  gem 'vlad-git', :require => false
+end

@@ -3,4 +3,11 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+begin
+  require 'vlad'
+  Vlad.load :app => :passenger, :scm => :git
+rescue LoadError
+  puts 'Could not load Vlad'
+end
+
 Rails.application.load_tasks
