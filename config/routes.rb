@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   get 'settings/show'
   get 'stores/index'
   get 'people/index'
+  get 'people/engineering'
 
 end
