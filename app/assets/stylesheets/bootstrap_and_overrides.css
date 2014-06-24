@@ -112,3 +112,16 @@ body {
   background-color: #d35400;
   color:white;
 }
+
+.insights {
+  text-align: center !important;
+  border: 10px solid #fff !important;
+}
+
+.more-info {
+  color: #fff;
+}
+
+.table {
+  border: 5px solid #fff !important;
+}
