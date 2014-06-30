@@ -119,6 +119,11 @@ body {
 }
 
 .more-info {
+  padding-bottom: 50px;
+  bottom: 0;
+}
+
+.more-info>a {
   color: #fff;
 }
 
@@ -135,4 +140,18 @@ body {
 
 .tasks>tbody>tr>td {
   border-right: 3px solid #ecf0f1;
+}
+
+.tiles>tbody>tr>td {
+  width: 25%;
+}
+
+.tile>tbody>tr>td {
+  border: none;
+  text-align: center;
+  height: 100px;
+}
+
+.tile {
+  width: 100%;
 }
