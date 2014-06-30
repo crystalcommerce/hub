@@ -7,6 +7,10 @@
   </h1>
 </div>
 
+<br>
+<br>
+<br>
+
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-6">
@@ -180,37 +184,30 @@
       </table>
     </div>
   </div>
-  </div>
 </div>
 
 <%= render 'tiles' %>
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-12">
-      <table class="table table-bordered">
-        <thead>
-          <tr class="physical-store">
-            <td>
-              <div class="notif-title">
-                Crystal Commerce Employees
-              </div>
-              <div class="notif-link">
+    <div class="col-md-6">
+      <table class="table table-bordered tasks">
+        <tbody>
+          <tr>
+            <td rowspan="5" class="title">
+             Crystal Commerce Employees 
+              <div class="all-tasks">
                 <%= link_to "All tasks", "#"%>
               </div>
             </td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
             <td>
-              <div class="notif-name">
-                Engineering
-              </div>
+              Engineering
             </td>
           </tr>
           <tr>
-            <td>Sales & Marketing</td>
+            <td>
+              Sales & Marketing
+            </td>
           </tr>
           <tr>
             <td>Product Support</td>
