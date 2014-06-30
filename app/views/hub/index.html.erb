@@ -10,21 +10,35 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-6">
-      <table class="table table-bordered">
-        <thead>
-          <tr class="physical-store">
-            <td>
-              <div class="notif-title">
-                Physical Store
-              </div>
-              <div class="notif-link">
+      <table class="table table-bordered tasks">
+        <tbody>
+          <tr>
+            <td rowspan="5" class="title">
+              Physical Store
+              <div class="all-tasks">
                 <%= link_to "All tasks", "#"%>
               </div>
             </td>
+            <td>
+              <div class="notif-name">
+                Restock Alerts
+              </div>
+              <div class="notif-count">
+                2
+              </div>
+            </td>
+            <td>Updated sell/buy list</td>
           </tr>
-        </thead>
-        <tbody>
           <tr>
+            <td>Inventorylookup</td>
+            <td>Sales &coupons</td>
+          </tr>
+          <tr>
+            <td>View Buy List</td>
+            <td>Add buyer incentives</td>
+          </tr>
+          <tr>
+            <td>View pending orders</td>
             <td>
               <div class="notif-name">
                 Restock Alerts
@@ -35,42 +49,28 @@
             </td>
           </tr>
           <tr>
-            <td>Inventory lookup</td>
-          </tr>
-          <tr>
-            <td>View Buy List</td>
-          </tr>
-          <tr>
-            <td>View pending orders</td>
-          </tr>
-          <tr>
             <td>Approve buy orders</td>
+            <td>Add products</td>
           </tr>
         </tbody>
       </table>
     </div>
     <div class="col-md-6">
-      <table class="table table-bordered">
-        <thead>
-          <tr class="product-lists">
-            <td>
-              <div class="notif-title">
-                Product Lists
-              </div>
-              <div class="notif-link">
+      <table class="table table-bordered tasks">
+        <tbody>
+          <tr>
+            <td rowspan="5" class="title">
+              List of Products
+              <div class="all-tasks">
                 <%= link_to "All tasks", "#"%>
               </div>
             </td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
             <td>
               <div class="notif-name">
                 Priced too high
               </div>
               <div class="notif-count">
-                241
+                251
               </div>
             </td>
           </tr>
@@ -80,35 +80,25 @@
                 Priced too low
               </div>
               <div class="notif-count">
-                17
+               17
               </div>
             </td>
           </tr>
           <tr>
             <td>
               <div class="notif-name">
-                Price beyond price guard
+                Priced beyond price guard
               </div>
               <div class="notif-count">
-                29
+               29
               </div>
             </td>
           </tr>
           <tr>
-            <td>
-              <div class="notif-name">
-                Products expecting slow turnover
-              </div>
-              <div>
-              </div>
-            </td>
+            <td>Products expecting slow turnover</td>
           </tr>
           <tr>
-            <td>
-              <div class="notif-name">
-                Recommended buys for great turnover
-              </div>
-            </td>
+            <td>Recommended buys for great turnover</td>
           </tr>
         </tbody>
       </table>
@@ -116,35 +106,31 @@
   </div>
   <div class="row">
     <div class="col-md-6">
-      <table class="table table-bordered">
-        <thead>
-          <tr class="online-store">
-            <td>
-              <div class="notif-title">
-                Online Store
-              </div>
-              <div class="notif-link">
+      <table class="table table-bordered tasks">
+        <tbody>
+          <tr>
+            <td rowspan="5" class="title">
+              Online Store
+              <div class="all-tasks">
                 <%= link_to "All tasks", "#"%>
               </div>
             </td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
             <td>
               <div class="notif-name">
-                Customer acquisition
+                Customer Acquisition
               </div>
               <div class="notif-count">
-                2
+               29
               </div>
             </td>
           </tr>
           <tr>
-            <td>Channel performance</td>
+            <td>
+              Channel performance
+            </td>
           </tr>
           <tr>
-            <td>Update Banners</td>
+            <td>Update Barriers</td>
           </tr>
           <tr>
             <td>View online performance</td>
@@ -156,21 +142,15 @@
       </table>
     </div>
     <div class="col-md-6">
-      <table class="table table-bordered">
-        <thead>
-          <tr class="strategic-insights">
-            <td>
-              <div class="notif-title">
-                Strategic Metrics for Store Owners
-              </div>
-              <div class="notif-link">
+      <table class="table table-bordered tasks">
+        <tbody>
+          <tr>
+            <td rowspan="5" class="title">
+              Strategic insights for store owners
+              <div class="all-tasks">
                 <%= link_to "All tasks", "#"%>
               </div>
             </td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
             <td>
               <div class="notif-name">
                 Metrics
@@ -182,37 +162,24 @@
           </tr>
           <tr>
             <td>
-              <div class="notif-name">
-                Tasks to scale store
-              </div>
+              Tasks to scale store
             </td>
           </tr>
           <tr>
             <td>
-              <div class="notif-name">
-                Insights
-              </div>
+              Insights
             </td>
           </tr>
           <tr>
-            <td>
-              <div class="notif-name">
-                Compare to great stores
-              </div>
-              <div>
-              </div>
-            </td>
+            <td>Compare to great stores</td>
           </tr>
           <tr>
-            <td>
-              <div class="notif-name">
-                Financial reports
-              </div>
-            </td>
+            <td>Principal reports</td>
           </tr>
         </tbody>
       </table>
     </div>
+  </div>
   </div>
 </div>
 
@@ -371,3 +338,5 @@
     </div>
   </div>
 </div>
+
+<div>

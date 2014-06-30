@@ -122,6 +122,17 @@ body {
   color: #fff;
 }
 
-.table {
-  border: 5px solid #fff !important;
+.all-tasks {
+  position: absolute;
+  padding-bottom: 25px;
+  bottom: 0;
+}
+
+.title {
+  background-color: #bdc3c7;
+  width: 30%;
+}
+
+.tasks>tbody>tr>td {
+  border-right: 3px solid #ecf0f1;
 }
