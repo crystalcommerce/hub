@@ -22,7 +22,8 @@ set :shared_paths, {
   'pids'                  => 'tmp/pids',
   'log'                   => 'log',
   'assets'                => 'public/assets',
-  'config/database.yml'   => 'config/database.yml'
+  'config/database.yml'   => 'config/database.yml',
+  'secrets.yml'           => 'config/secrets.yml'
 }
 
 desc "Symlinks the configuration files"
