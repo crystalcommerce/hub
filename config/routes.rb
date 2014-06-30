@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'people/index'
   get 'people/engineering'
   get 'people/graphic_design'
+  get 'people/sales_team'
 
   get '/auth/:provider/callback' => 'sessions#create'
   get '/login' => 'sessions#new', :as => :login
