@@ -10,7 +10,8 @@
     </span>
   </p>
 
-  <div>
+  <div class="stores-div">
+  <%= paginate @stores %>
   <table class="table table-bordered table-hover table-striped">
     <thead>
       <tr class="active" style="background-color: grey">
@@ -26,35 +27,27 @@
         <th>
           Admin
         </th>
-        <th>
-          Sync
-        </th>
       </tr>
     </thead>
     <tbody>
-      <% 20.times.each do %>
+      <% @stores.each do |store| %>
       <tr>
         <th>
-          3hdgames
+          <%= store.database_name %>
         </th>
         <th>
-          3hdgames
+          <%= store.name %>
         </th>
         <th>
-          GO
+          <%= link_to "GO", store.url %>
         </th>
         <th>
-          GO
-        </th>
-        <th>
-          GO
+          <%= link_to "GO", "https://#{store.database_name}-admin.crystalcommerce.com/" %>
         </th>
       </tr>
       <% end %>
     </tbody>
   </table>
   </div>
-
+  <%= paginate @stores %>
 </div>
-
-

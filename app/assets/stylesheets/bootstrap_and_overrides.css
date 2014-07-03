@@ -159,3 +159,15 @@ body {
 .app-links {
   color: #fff;
 }
+
+.pagination a {
+  color: #005580;
+}
+
+.pagination a:hover {
+  color: #005580;
+}
+
+.pagination current {
+  color: red;
+}

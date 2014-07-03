@@ -16,6 +16,7 @@ gem "less-rails"
 gem 'pg'
 gem 'omniauth-oauth2', '~> 1.1'
 gem 'virtus'
+gem 'kaminari'
 group :development do
   gem 'vlad', :require => false
   gem 'vlad-assets', :require => false
