@@ -176,3 +176,11 @@ body {
   height: 40px !important;
   padding: none !important;
 }
+
+.tile-title {
+  color: #fff;
+}
+
+.tile-title:hover {
+  color: #fff;
+}
