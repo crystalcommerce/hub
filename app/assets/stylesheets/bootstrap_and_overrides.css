@@ -171,3 +171,8 @@ body {
 .pagination current {
   color: red;
 }
+
+.search-textfield {
+  height: 40px !important;
+  padding: none !important;
+}

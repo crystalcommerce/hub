@@ -1,12 +1,17 @@
 <div class="content">
   <p>
-    <span><b>List of Stores</b> - across Crystal Commerce Intranetwork</span>
+    <span><h3>List of Stores - across Crystal Commerce Intranetwork</h3></span>
   </p>
   <p>
+    Search Store
     <span>
-      Search Store
-      <%= text_field_tag 'Store name', '', placeholder: "Enter Store Name", class: "search-store" %>
-      <%= button_tag "Search", class: "btn btn-success" %>
+      <%= form_tag stores_path, :method => 'get' do %>
+        <p>
+          <%= text_field_tag :store_name, params[:search], placeholder: "Enter Store Name", class: "form-control input-large search-textfield" %>
+          <br>
+          <%= submit_tag "Search", class: "btn btn-success" %>
+        </p>
+      <% end %>
     </span>
   </p>
 
