@@ -27,6 +27,9 @@
           Full Store name
         </th>
         <th>
+          Store
+        </th>
+        <th>
           POS
         </th>
         <th>
@@ -45,6 +48,9 @@
         </th>
         <th>
           <%= link_to "GO", store.url %>
+        </th>
+        <th>
+          <%= link_to "GO", "https://#{store.database_name}-pos.crystalcommerce.com/" %>
         </th>
         <th>
           <%= link_to "GO", "https://#{store.database_name}-admin.crystalcommerce.com/" %>
