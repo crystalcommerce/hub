@@ -23,38 +23,24 @@
                 <%= link_to "All tasks", "#"%>
               </div>
             </td>
-            <td>
-              <div class="notif-name">
-                Restock Alerts
-              </div>
-              <div class="notif-count">
-                2
-              </div>
-            </td>
-            <td>Updated sell/buy list</td>
+            <%= render 'notif', title: "Restock Alerts", count: 2 %>
+            <%= render 'notif', title: "Updated sell/buy list", count: 0 %>
           </tr>
           <tr>
-            <td>Inventorylookup</td>
-            <td>Sales &coupons</td>
+            <%= render 'notif', title: "Inventory Lookup", count: 0 %>
+            <%= render 'notif', title: "Sales & Coupons", count: 0 %>
           </tr>
           <tr>
-            <td>View Buy List</td>
-            <td>Add buyer incentives</td>
+            <%= render 'notif', title: "View Buy List", count: 0 %>
+            <%= render 'notif', title: "Add buyer Incentives", count: 0 %>
           </tr>
           <tr>
-            <td>View pending orders</td>
-            <td>
-              <div class="notif-name">
-                Restock Alerts
-              </div>
-              <div class="notif-count">
-                2
-              </div>
-            </td>
+            <%= render 'notif', title: "View Pending Orders", count: 0 %>
+            <%= render 'notif', title: "Restock Alerts", count: 2 %>
           </tr>
           <tr>
-            <td>Approve buy orders</td>
-            <td>Add products</td>
+            <%= render 'notif', title: "Approve buy orders", count: 0 %>
+            <%= render 'notif', title: "Add products", count: 0 %>
           </tr>
         </tbody>
       </table>
@@ -69,40 +55,19 @@
                 <%= link_to "All tasks", "#"%>
               </div>
             </td>
-            <td>
-              <div class="notif-name">
-                Priced too high
-              </div>
-              <div class="notif-count">
-                251
-              </div>
-            </td>
+            <%= render 'notif', title: "Priced too high", count: 251 %>
           </tr>
           <tr>
-            <td>
-              <div class="notif-name">
-                Priced too low
-              </div>
-              <div class="notif-count">
-               17
-              </div>
-            </td>
+            <%= render 'notif', title: "Priced too low", count: 17 %>
           </tr>
           <tr>
-            <td>
-              <div class="notif-name">
-                Priced beyond price guard
-              </div>
-              <div class="notif-count">
-               29
-              </div>
-            </td>
+            <%= render 'notif', title: "Priced beyond price guard", count: 29 %>
           </tr>
           <tr>
-            <td>Products expecting slow turnover</td>
+            <%= render 'notif', title: "Products expecting slow turnover", count: 0 %>
           </tr>
           <tr>
-            <td>Recommended buys for great turnover</td>
+            <%= render 'notif', title: "Recommended buys for great turnover", count: 0 %>
           </tr>
         </tbody>
       </table>
@@ -119,28 +84,19 @@
                 <%= link_to "All tasks", "#"%>
               </div>
             </td>
-            <td>
-              <div class="notif-name">
-                Customer Acquisition
-              </div>
-              <div class="notif-count">
-               29
-              </div>
-            </td>
+            <%= render 'notif', title: "Cusomter Acquisition", count: 29 %>
           </tr>
           <tr>
-            <td>
-              Channel performance
-            </td>
+            <%= render 'notif', title: "Channel Performance", count: 0 %>
           </tr>
           <tr>
-            <td>Update Barriers</td>
+            <%= render 'notif', title: "Update Barriers", count: 0 %>
           </tr>
           <tr>
-            <td>View online performance</td>
+            <%= render 'notif', title: "View online performance", count: 0 %>
           </tr>
           <tr>
-            <td>Suggests to scale sales</td>
+            <%= render 'notif', title: "Suggests to scale sales", count: 0 %>
           </tr>
         </tbody>
       </table>
@@ -155,30 +111,19 @@
                 <%= link_to "All tasks", "#"%>
               </div>
             </td>
-            <td>
-              <div class="notif-name">
-                Metrics
-              </div>
-              <div class="notif-count">
-                3
-              </div>
-            </td>
+            <%= render 'notif', title: "Metrics", count: 3 %>
           </tr>
           <tr>
-            <td>
-              Tasks to scale store
-            </td>
+            <%= render 'notif', title: "Tasks to scale store", count: 0 %>
           </tr>
           <tr>
-            <td>
-              Insights
-            </td>
+            <%= render 'notif', title: "Insights", count: 0 %>
           </tr>
           <tr>
-            <td>Compare to great stores</td>
+            <%= render 'notif', title: "Compare to great stores", count: 0 %>
           </tr>
           <tr>
-            <td>Principal reports</td>
+            <%= render 'notif', title: "Principal Reports", count: 0 %>
           </tr>
         </tbody>
       </table>

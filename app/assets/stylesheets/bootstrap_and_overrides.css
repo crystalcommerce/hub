@@ -140,6 +140,8 @@ body {
 
 .tasks>tbody>tr>td {
   border-right: 3px solid #ecf0f1;
+  cursor: hand;
+  cursor: pointer;
 }
 
 .tiles>tbody>tr>td {
